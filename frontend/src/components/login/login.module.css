@@ -1,0 +1,72 @@
+/* Here I used important property because all these component of antd library for overrite style */
+
+.loginContainer {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.loginContainer > h1 {
+    color: rgb(79,0,193)!important;
+}
+
+.loginContainer > p {
+    color: rgb(79,0,193)!important;
+    cursor: pointer;
+}
+
+.fields{
+    margin-bottom: 10px!important;
+    width: 300px;
+    height: 35px;
+}
+
+.loginBtn{
+    background-color: rgb(79,0,193)!important;
+    border: none!important;
+    width: 300px;
+    height: 35px;
+}
+
+.loginBtn:hover{
+    background-color: rgb(133, 62, 233)!important;
+    border: none!important;
+}
+
+.googleAuthBtn{
+    background-color: rgb(255, 255, 255)!important;
+    border: 1px solid lightgray!important;
+    width: 300px;
+    height: 35px;
+    color: black!important;
+    display: flex!important;
+    justify-content: center!important;
+    align-items: center!important;
+    margin-top: 10px!important;
+}
+
+.googleAuthBtn > p {
+    margin-top: 13px!important;
+    margin-left: 5px!important;
+
+}
+
+.googleAuthBtn:hover{
+    background-color: rgb(255, 255, 255)!important;
+    border: 1px solid lightgray!important;
+}
+
+.signUpTextBox {
+    margin-top: 10px;
+    display:  flex;
+    gap: 5px;
+}
+
+.signUpTextBox :nth-child(2){
+    color: rgb(79,0,193);
+    cursor: pointer;
+}
