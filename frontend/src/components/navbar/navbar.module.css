@@ -2,6 +2,21 @@
     box-shadow: 0 2px 3px -1px rgba(0, 0, 0, 0.1);
     height : 80px;
     padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
 }
 
+.profileBar{
+    display: flex;
+    align-items:center ;
+    gap: 12px;
+    margin-right: 40px;
+    /* margin-top: 14px; */
+}
+
+.profileBar :nth-child(1){
+    font-weight: 600;
+    margin-bottom: 0;
+}
 

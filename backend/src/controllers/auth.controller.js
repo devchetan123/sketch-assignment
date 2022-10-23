@@ -41,6 +41,7 @@ router.post("/login", async (req, res) => {
     try {
 
         const isUserExist = await User.findOne({ email: req.body.email }).select("+password");
+        const user = await User.findOne({ email: req.body.email })
 
         if (!isUserExist) {
             return res.status(200).json({
@@ -62,7 +63,8 @@ router.post("/login", async (req, res) => {
             return res.status(200).json({
                 status: true,
                 authToken,
-                message: "Login success"
+                message: "Login success",
+                user: user
             })
         }
     }

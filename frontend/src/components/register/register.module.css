@@ -32,6 +32,16 @@
     gap: -10px;
 }
 
+.accountalready{
+    display: flex;
+    gap: 8px;
+}
+
+.accountalready :nth-child(2){
+    color: rgb(79,0,193)!important;
+    cursor: pointer;
+}
+
 .loginBtn{
     background-color: rgb(79,0,193)!important;
     border: none!important;
